@@ -1,0 +1,693 @@
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Moment of Clarity</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="MomentOfClarity" name="MomentOfClarity" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Sneak</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Sneak" name="Sneak" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Stability</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Stability" name="Stability" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Treasure Hunter</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="TreasureHunter" name="TreasureHunter" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Ember Seeker</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="EmberSeeker" name="EmberSeeker" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Evasion</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Evasion" name="Evasion" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Tread Lightly</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="TreadLightly" name="TreadLightly" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>FrostFocus</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="FrostFocus" name="FrostFocus" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Loot & Scoot</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="LootAndScoot" name="LootAndScoot" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Second Wind</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="SecondWind" name="SecondWind" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Beast Sense</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="BeastSense" name="BeastSense" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Bounding Strides</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="BoundingStrides" name="BoundingStrides" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Reckless Charge</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="RecklessCharge" name="RecklessCharge" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Sprint</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Sprint" name="Sprint" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Nimble Looting</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="NimbleLooting" name="NimbleLooting" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Smash & Grab</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="SmashAndGrab" name="SmashAndGrab" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Quickstep</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Quickstep" name="Quickstep" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Suit Up</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="SuitUp" name="SuitUp" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Adrenaline Rush</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="AdrenalineRush" name="AdrenalineRush" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Eerie Silence</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="EerieSilence" name="EerieSilence" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Dungeon Repairs</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="DungeonRepairs" name="DungeonRepairs" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Swagger</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Swagger" name="Swagger" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Chill Step</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="ChillStep" name="ChillStep" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Speed Runner</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="SpeedRunner" name="SpeedRunner" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Eyes on the Prize</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="EyesOnThePrize" name="EyesOnThePrize" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Haste</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Haste" name="Haste" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Cold Snap</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="ColdSnap" name="ColdSnap" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Fuzzy Bunny Slippers</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="FuzzyBunnySlippers" name="FuzzyBunnySlippers" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Deepfrost</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Deepfrost" name="Deepfrost" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Brilliance</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Brilliance" name="Brilliance" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Pay to Win</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="PayToWin" name="PayToWin" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Tactical Approach</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="TacticalApproach" name="TacticalApproach" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Pork Chop Power</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="PorkChopPower" name="PorkChopPower" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3>Dungeon Lackey</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="DungeonLackey" name="DungeonLackey" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+</tr>
+<tr>
+    <th>
+        <div class="card-title">
+            <h3>Stumble</h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <input type="number" id="Stumble" name="Stumble" min="0" max="5" step="1" value="0">
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+    <th>
+        <div class="card-title">
+            <h3></h3>
+        </div>
+    </th>
+    <th>
+        <div class="card-image">
+            <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+        </div>
+    </th>
+    <th>
+        <div>
+            <p></p>
+        </div>
+    </th>
+</tr>

@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Decked Out 2 Card Calculator</title>
+<!--    <script type="module" src="https://pyscript.net/snapshots/2023.11.1.RC3/core.js"></script>-->
+    <link rel="stylesheet" href="styles.css">
+<!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">-->
+</head>
+<body>
+    <h1>Decked Out 2 Card Calculator</h1>
+    <p>Configure your deck to get started</p>
+
+    <table>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Moment of Clarity</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Sneak</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Stability</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Treasure Hunter</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Ember Seeker</h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/moment_of_clarity.png" alt="Moment of Clarity">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/sneak.webp" alt="Sneak">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/stability.webp" alt="Stability">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/treasure_hunter.webp" alt="Treasure Hunter">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/ember_seeker.png" alt="Ember Seeker">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="moment_of_clarity" name="moment_of_clarity" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="sneak" name="sneak" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="stability" name="stability" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="treasure_hunter" name="treasure_hunter" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="ember_seeker" name="ember_seeker" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Evasion</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Tread Lightly</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>FrostFocus</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Loot & Scoot</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Second Wind</h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/evasion.png" alt="Evasion">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/tread_lightly.webp" alt="Tread Lightly">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/frost_focus.webp" alt="Frost Focus">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/loot_and_scoot.webp" alt="Loot & Scoot">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/second_wind.webp" alt="Second Wind">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="Evasion" name="Evasion" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="TreadLightly" name="TreadLightly" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="FrostFocus" name="FrostFocus" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="LootAndScoot" name="LootAndScoot" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="SecondWind" name="SecondWind" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Beast Sense</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Bounding Strides</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Reckless Charge</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Sprint</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Nimble Looting</h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/beast_sense.png" alt="Beast Sense">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/bounding_strides.png" alt="Bounding Strides">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/reckless_charge.webp" alt="Reckless Charge">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/sprint.webp" alt="Sprint">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/nimble_looting.webp" alt="Nimble Looting">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="BeastSense" name="BeastSense" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="BoundingStrides" name="BoundingStrides" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="RecklessCharge" name="RecklessCharge" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="Sprint" name="Sprint" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="NimbleLooting" name="NimbleLooting" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Smash & Grab</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Quickstep</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Suit Up</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Adrenaline Rush</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/smash_and_grab.webp" alt="Smash & Grab">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/quickstep.webp" alt="Quickstep">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/suit_up.webp" alt="Suit Up">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/adrenaline_rush.png" alt="Adrenaline Rush">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="SmashAndGrab" name="SmashAndGrab" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="Quickstep" name="Quickstep" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="SuitUp" name="SuitUp" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="AdrenalineRush" name="AdrenalineRush" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Eerie Silence</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Dungeon Repairs</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Swagger</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Chill Step</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Speed Runner</h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/eerie_silence.png" alt="Eerie Silence">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/dungeon_repairs.png" alt="Dungeon Repairs">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/swagger.webp" alt="Swagger">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/chill_step.png" alt="Chill Step">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/speed_runner.webp" alt="Speed Runner">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="EerieSilence" name="EerieSilence" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="DungeonRepairs" name="DungeonRepairs" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="Swagger" name="Swagger" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="ChillStep" name="ChillStep" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="SpeedRunner" name="SpeedRunner" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Eyes on the Prize</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Haste</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Cold Snap</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Fuzzy Bunny Slippers</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Deepfrost</h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/eyes_on_the_prize.webp" alt="Eyes on the Prize">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/haste.webp" alt="Haste">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/cold_snap.png" alt="Cold Snap">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/fuzzy_bunny_slippers.webp" alt="Fuzzy Bunny Slippers">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/deepfrost.png" alt="Deepfrost">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="EyesOnThePrize" name="EyesOnThePrize" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="Haste" name="Haste" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="ColdSnap" name="ColdSnap" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="FuzzyBunnySlippers" name="FuzzyBunnySlippers" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="Deepfrost" name="Deepfrost" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Brilliance</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/brilliance.png" alt="Brilliance">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="Brilliance" name="Brilliance" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Pay to Win</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Tactical Approach</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Pork Chop Power</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3>Dungeon Lackey</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/pay_to_win.webp" alt="Pay to Win">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/tactical_approach.webp" alt="Tactical Approach">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/pork_chop_power.webp" alt="Pork Chop Power">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+                    <img src="images/dungeon_lackey.png" alt="Dungeon Lackey">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="PayToWin" name="PayToWin" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="TacticalApproach" name="TacticalApproach" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="PorkChopPower" name="PorkChopPower" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+                    <input type="number" id="DungeonLackey" name="DungeonLackey" min="0" max="5" step="1" value="0">
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-titles">
+            <th>
+                <div class="card-title">
+                    <h3>Stumble</h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+            <th>
+                <div class="card-title">
+                    <h3></h3>
+                </div>
+            </th>
+        </tr>
+        <tr class="card-images">
+            <th>
+                <div class="card-image">
+                    <img src="images/stumble.webp" alt="Stumble">
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+            <th>
+                <div class="card-image">
+
+                </div>
+            </th>
+        </tr>
+        <tr class="card-inputs">
+            <th>
+                <div>
+                    <input type="number" id="Stumble" name="Stumble" min="0" max="5" step="1" value="0" readonly>
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+            <th>
+                <div>
+
+                </div>
+            </th>
+        </tr>
+    </table>
+</body>
+</html>
